@@ -23,6 +23,10 @@ $(document).keydown(function(event){
     return [randomX,randomY];
   }
 
+    // if (event.keyCode == 32) {
+    //   document.getElementById("background").style.backgroundColor = randomColor();
+    // ^that doesn't work for some reason
+
     if (event.keyCode == 65) {
       sound.play();
       // document.getElementById('sound1').play();
@@ -447,6 +451,7 @@ $(document).keyup(function(event) {
        $("img").fadeOut(1000);
    }
 
+<<<<<<< HEAD
    //   if (event.keyCode == 67) {
    //   var a= document.getElementById('wrapper');
    //     $("img").fadeOut(1000);
@@ -616,7 +621,177 @@ $(document).keyup(function(event) {
    //   var a= document.getElementById('wrapper');
    //     $("img").fadeOut(1000);
    // }
+=======
+     if (event.keyCode == 67) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
 
+    if (event.keyCode == 68) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 69) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 70) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   } 
+    if (event.keyCode == 71) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 72) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 73) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+    if (event.keyCode == 74) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 75) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 76) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }  
+
+
+     if (event.keyCode == 77) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+    if (event.keyCode == 78) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 79) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 80) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   } 
+
+        if (event.keyCode == 81) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   } 
+    if (event.keyCode == 82) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 83) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 84) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+    if (event.keyCode == 85) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 86) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 87) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }  
+
+
+     if (event.keyCode == 88) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+    if (event.keyCode == 89) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 90) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+       if (event.keyCode == 48) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   } 
+    if (event.keyCode == 49) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 50) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 51) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+    if (event.keyCode == 52) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 53) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 54) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }  
+
+
+     if (event.keyCode == 55) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+    if (event.keyCode == 56) {
+     var a= document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+
+     if (event.keyCode == 57) {
+     var a = document.getElementById('wrapper');
+       $("img").fadeOut(1000);
+   }
+>>>>>>> 796f32650104d2e24f3d11abd1a752a13e39a9bd
 
 });
 
