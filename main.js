@@ -8,6 +8,10 @@ $(document).keydown(function(event){
     return [randomX,randomY];
   }
 
+    // if (event.keyCode == 32) {
+    //   document.getElementById("background").style.backgroundColor = randomColor();
+    // ^that doesn't work for some reason
+
     if (event.keyCode == 65) {
       document.getElementById('sound1').play();
       var img = document.createElement('img');
@@ -596,10 +600,9 @@ $(document).keyup(function(event) {
    }
 
      if (event.keyCode == 57) {
-     var a= document.getElementById('wrapper');
+     var a = document.getElementById('wrapper');
        $("img").fadeOut(1000);
    }
-
 
 });
 
