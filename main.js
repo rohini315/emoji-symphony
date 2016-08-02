@@ -9,6 +9,7 @@ $(document).keydown(function(event){
   }
 
     if (event.keyCode == 65) {
+      
       document.getElementById('sound1').play();
       var img = document.createElement('img');
       img.setAttribute("style", "position:absolute;");
