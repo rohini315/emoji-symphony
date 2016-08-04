@@ -163,6 +163,20 @@ var sound37=new Howl({
     src: ["mp3/clap-loop.mp3","mp3/groove-loop.mp3"]
 })
 
+ $(window).load(function() {
+  var space = document.getElementById("space");
+    $(space).hide();
+  var press = document.getElementById("press");
+    $(press).hide();
+  var emoji= document.getElementById("emojis");
+    $(emoji).fadeOut(5000);
+  var slided = document.getElementById("slide_down");
+    $(slided).fadeOut(5000);
+  var slideu = document.getElementById("slide_up");
+    $(slideu).fadeOut(5000); 
+  var press=document.getElementById("press");
+      $(press).fadeIn(6000);
+  });
 
 $(document).keydown(function(event){
 
@@ -174,12 +188,17 @@ $(document).keydown(function(event){
     return [randomX,randomY];
   }
 
+
     if (event.keyCode==32){
       sound37.play();
       var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
       $('body').css("background",hue);
     }
 
+    if (event.keyCode !=32) {
+      var press=document.getElementById("press");
+      $(press).fadeOut();
+     }
 
     if (event.keyCode == 65) {
       sound1.play();
